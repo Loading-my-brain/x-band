@@ -1,0 +1,193 @@
+osm_id,full_id,name,highway,length_m,is_bridge,is_tunnel,n_flagged,width_median_m,drive_pinch_m,share_measured,drive_share,passable_pinzgauer,reason_pinzgauer,passable_mhov,reason_mhov
+19726989,w19726989,State Highway 1,trunk,120.33,False,False,0,9.25,18.5,1.0,1.0,yes,,yes,
+19726990,w19726990,Killarney Street,tertiary,332.74,False,False,1,6.5,11.0,1.0,1.0,yes,,yes,
+19726991,w19726991,Takahanga Terrace,tertiary,239.47,False,False,0,7.0,9.0,1.0,1.0,yes,,yes,
+19726994,w19726994,Yarmouth Street,tertiary,184.01,False,False,0,15.5,33.5,0.75,1.0,yes,,yes,
+19729998,w19729998,State Highway 1,trunk,1970.36,False,False,8,5.0,4.5,0.9,1.0,yes,,yes,
+19782907,w19782907,Churchill Street,trunk,395.99,False,False,0,10.25,37.5,1.0,1.0,yes,,yes,
+19783705,w19783705,Inland Kaikōura Road,secondary,8001.86,False,False,10,7.0,10.5,1.0,1.0,yes,,yes,
+30875919,w30875919,Grange Road,unclassified,2224.01,False,False,0,5.5,8.0,1.0,1.0,yes,,yes,
+30875942,w30875942,Grange Road,unclassified,562.6,False,False,0,5.5,7.5,1.0,1.0,yes,,yes,
+32257417,w32257417,State Highway 1,trunk,42.39,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+32257464,w32257464,State Highway 1,trunk,2871.19,False,False,11,6.25,3.5,0.84,0.95,unknown,too little of the road could be measured,no,sustained pinch narrower than vehicle + clearance
+41078556,w41078556,Old Beach Road,unclassified,3143.83,False,False,0,6.0,8.0,1.0,1.0,yes,,yes,
+43268257,w43268257,State Highway 1,trunk,166.6,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+43268258,w43268258,State Highway 1,trunk,3251.62,False,False,2,10.0,13.5,0.97,0.98,yes,,yes,
+43268259,w43268259,State Highway 1,trunk,47.69,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+43268260,w43268260,State Highway 1,trunk,563.9,False,False,0,12.5,18.5,1.0,1.0,yes,,yes,
+43268265,w43268265,State Highway 1,trunk,253.08,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+43268266,w43268266,State Highway 1,trunk,137.36,False,False,0,4.0,15.5,1.0,1.0,yes,,yes,
+43268270,w43268270,State Highway 1,trunk,35.16,False,False,1,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43268271,w43268271,State Highway 1,trunk,1307.31,False,False,10,5.5,6.5,0.84,0.96,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43268272,w43268272,State Highway 1,trunk,61.56,False,False,0,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43268273,w43268273,State Highway 1,trunk,47.8,False,True,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+43268274,w43268274,State Highway 1,trunk,39.37,False,False,1,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43268275,w43268275,State Highway 1,trunk,40.33,False,True,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+43268276,w43268276,State Highway 1,trunk,39.2,False,False,1,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43268277,w43268277,State Highway 1,trunk,99.22,False,False,0,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43268278,w43268278,State Highway 1,trunk,37.43,False,False,0,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43268280,w43268280,State Highway 1,trunk,60.18,False,True,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+43268281,w43268281,State Highway 1,trunk,92.36,False,False,0,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43268282,w43268282,State Highway 1,trunk,51.62,False,True,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+43268283,w43268283,State Highway 1,trunk,45.63,False,False,0,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+43343819,w43343819,State Highway 1,trunk,38.67,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+43343820,w43343820,State Highway 1,trunk,1254.74,False,False,5,6.75,10.0,0.88,1.0,yes,,yes,
+77297143,w77297143,Kowhai Ford Road,unclassified,867.16,False,False,4,3.5,3.5,1.0,1.0,yes,,no,sustained pinch narrower than vehicle + clearance
+77303020,w77303020,Inland Kaikōura Road,secondary,1074.83,False,False,0,8.0,12.0,1.0,1.0,yes,,yes,
+77303022,w77303022,Inland Kaikōura Road,secondary,852.48,False,False,1,5.5,9.0,1.0,1.0,yes,,yes,
+77303023,w77303023,Inland Kaikōura Road,secondary,4.08,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+77307292,w77307292,Inland Kaikōura Road,secondary,148.18,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+77307324,w77307324,Inland Kaikōura Road,secondary,593.28,False,False,0,10.5,19.0,0.92,1.0,yes,,yes,
+83509978,w83509978,West End,tertiary,209.06,False,False,0,10.5,38.5,1.0,1.0,yes,,yes,
+133094380,w133094380,Kowhai Ford Road,unclassified,89.42,False,False,1,4.25,9.5,1.0,1.0,yes,,yes,
+142987616,w142987616,Ludstone Road,unclassified,383.36,False,False,0,10.25,15.5,1.0,1.0,yes,,yes,
+142987620,w142987620,Topline Road,unclassified,706.27,False,False,0,6.25,8.0,1.0,1.0,yes,,yes,
+142987626,w142987626,Postman's Road,unclassified,943.92,False,False,0,9.0,14.5,1.0,1.0,yes,,yes,
+148400009,w148400009,Athelney Road,trunk,180.22,False,False,0,8.75,30.0,1.0,1.0,yes,,yes,
+148400010,w148400010,Beach Road,trunk,9.1,False,False,0,,,0.0,0.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+156262170,w156262170,State Highway 1,trunk,2036.79,False,False,4,9.88,11.0,0.93,1.0,yes,,yes,
+156565697,w156565697,State Highway 1,trunk,767.7,False,False,2,9.0,12.5,0.87,1.0,yes,,yes,
+156568438,w156568438,Athelney Road,trunk,2697.2,False,False,1,8.5,11.5,1.0,1.0,yes,,yes,
+156568439,w156568439,State Highway 1,trunk,137.41,False,False,0,13.5,17.0,1.0,1.0,yes,,yes,
+164350108,w164350108,Kowhai Ford Road,track,176.31,False,False,0,15.0,18.0,0.75,1.0,yes,,yes,
+175747030,w175747030,State Highway 1,trunk,24.03,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+175747033,w175747033,State Highway 1,trunk,1295.42,False,False,1,9.0,12.5,0.96,1.0,yes,,yes,
+175747421,w175747421,State Highway 1,trunk,50.38,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+176375563,w176375563,Beach Road,trunk,2478.02,False,False,0,11.0,21.5,0.96,1.0,yes,,yes,
+176375569,w176375569,Beach Road,trunk,15.49,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+176375582,w176375582,State Highway 1,trunk,228.93,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+176375584,w176375584,State Highway 1,trunk,2307.13,False,False,1,9.5,12.5,1.0,1.0,yes,,yes,
+206301260,w206301260,State Highway 1,trunk,304.26,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+206301262,w206301262,State Highway 1,trunk,1779.68,False,False,0,10.75,11.0,0.94,1.0,yes,,yes,
+248183872,w248183872,State Highway 1,trunk,798.17,False,False,0,12.25,16.0,1.0,1.0,yes,,yes,
+248183873,w248183873,State Highway 1,trunk,2601.97,False,False,0,6.5,9.5,1.0,1.0,yes,,yes,
+248416700,w248416700,State Highway 1,trunk,1668.15,False,False,3,7.0,9.0,1.0,1.0,yes,,yes,
+248416702,w248416702,State Highway 1,trunk,50.0,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+248420482,w248420482,State Highway 1,trunk,1505.34,False,False,4,9.0,10.5,0.9,1.0,yes,,yes,
+248420483,w248420483,Kincaid Road,trunk,1405.69,False,False,5,6.0,9.0,1.0,1.0,yes,,yes,
+248953772,w248953772,State Highway 1,trunk,48.35,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+248953773,w248953773,State Highway 1,trunk,4108.91,False,False,0,7.5,9.5,1.0,1.0,yes,,yes,
+278768239,w278768239,State Highway 1,trunk,568.18,False,False,1,8.5,15.5,1.0,1.0,yes,,yes,
+278778566,w278778566,State Highway 1,trunk,4546.64,False,False,9,8.5,4.5,0.98,1.0,yes,,yes,
+290274332,w290274332,State Highway 1,trunk,1167.91,False,False,8,7.5,4.5,0.74,0.87,yes,,yes,
+311215849,w311215849,,track,227.88,False,False,0,9.0,11.5,1.0,1.0,yes,,yes,
+367825668,w367825668,State Highway 1,trunk,93.02,False,False,0,6.75,26.5,1.0,1.0,yes,,yes,
+367825670,w367825670,State Highway 1,trunk,40.41,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+439637220,w439637220,Kowhai Ford Road,unclassified,977.76,False,False,0,7.25,15.0,1.0,1.0,yes,,yes,
+453280299,w453280299,State Highway 1,trunk,2712.85,False,False,8,6.0,4.0,1.0,1.0,yes,,yes,
+453284422,w453284422,State Highway 1,trunk,933.07,False,False,0,9.0,11.5,1.0,1.0,yes,,yes,
+453284424,w453284424,State Highway 1,trunk,2021.74,False,False,9,7.5,3.0,0.9,1.0,yes,,no,sustained pinch narrower than vehicle + clearance
+453284428,w453284428,State Highway 1,trunk,1808.9,False,False,11,8.0,10.5,0.75,1.0,yes,,yes,
+453374315,w453374315,State Highway 1,trunk,6.05,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+453374319,w453374319,State Highway 1,trunk,767.52,False,False,0,7.0,9.5,1.0,1.0,yes,,yes,
+453374349,w453374349,State Highway 1,trunk,375.3,False,False,0,8.0,13.0,1.0,1.0,yes,,yes,
+453374353,w453374353,State Highway 1,trunk,6.02,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+453374357,w453374357,State Highway 1,trunk,6.44,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+453374362,w453374362,State Highway 1,trunk,740.71,False,False,0,9.5,10.0,1.0,1.0,yes,,yes,
+453382683,w453382683,State Highway 1,trunk,21.77,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+453386501,w453386501,Kincaid Road,trunk,3051.0,False,False,0,9.5,11.0,1.0,1.0,yes,,yes,
+453386502,w453386502,Kincaid Road,trunk,21.5,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+453386506,w453386506,Old Beach Road,unclassified,19.23,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+453386507,w453386507,Old Beach Road,unclassified,1000.78,False,False,0,8.75,14.5,1.0,1.0,yes,,yes,
+453389243,w453389243,Old Beach Road,unclassified,29.49,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+453389251,w453389251,Old Beach Road,unclassified,885.59,False,False,0,8.5,9.5,1.0,1.0,yes,,yes,
+453389252,w453389252,Old Beach Road,unclassified,24.04,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+453410903,w453410903,Postman's Road,unclassified,1471.04,False,False,0,6.5,7.5,1.0,1.0,yes,,yes,
+453410904,w453410904,Red Swamp Road,unclassified,1981.43,False,False,1,8.5,9.5,1.0,1.0,yes,,yes,
+456119603,w456119603,Red Swamp Road,unclassified,41.93,False,False,0,7.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+456119608,w456119608,Ludstone Road,unclassified,1566.6,False,False,0,6.5,9.5,1.0,1.0,yes,,yes,
+472044712,w472044712,Esplanade,tertiary,667.53,False,False,0,13.0,18.5,0.92,1.0,yes,,yes,
+504484056,w504484056,Hapuku Road,unclassified,469.84,False,False,0,7.0,18.5,1.0,1.0,yes,,yes,
+504484059,w504484059,Koura Bay Drive,residential,893.58,False,False,1,6.75,12.5,1.0,1.0,yes,,yes,
+536535972,w536535972,State Highway 1,trunk,564.56,False,False,3,4.75,7.0,0.91,1.0,yes,,yes,
+545580447,w545580447,State Highway 1,trunk,143.9,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+545580448,w545580448,State Highway 1,trunk,2305.5,False,False,2,7.5,10.0,1.0,1.0,yes,,yes,
+548039028,w548039028,State Highway 1,trunk,1354.64,False,False,5,6.0,8.5,1.0,1.0,yes,,yes,
+548039029,w548039029,State Highway 1,trunk,333.61,False,False,0,9.5,14.5,1.0,1.0,yes,,yes,
+583434056,w583434056,Postman's Road,unclassified,689.13,False,False,0,10.25,15.5,0.86,1.0,yes,,yes,
+664604198,w664604198,State Highway 1,trunk,2048.21,False,False,0,7.5,11.5,1.0,1.0,yes,,yes,
+744547828,w744547828,Ludstone Road,unclassified,399.67,False,False,0,5.75,17.0,1.0,1.0,yes,,yes,
+753426292,w753426292,Inland Kaikōura Road,secondary,1162.5,False,False,0,8.5,11.5,1.0,1.0,yes,,yes,
+797156555,w797156555,State Highway 1,trunk,32.9,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+797156556,w797156556,State Highway 1,trunk,849.32,False,False,16,1.5,1.5,0.41,0.71,no,sustained pinch narrower than vehicle + clearance,no,sustained pinch narrower than vehicle + clearance
+799339138,w799339138,State Highway 1,trunk,2160.11,False,False,3,6.5,8.5,1.0,1.0,yes,,yes,
+799339139,w799339139,State Highway 1,trunk,20.42,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+836367118,w836367118,State Highway 1,trunk,124.25,False,False,0,13.25,25.0,1.0,1.0,yes,,yes,
+836367119,w836367119,State Highway 1,trunk,273.03,False,False,0,8.0,27.0,1.0,1.0,yes,,yes,
+838840995,w838840995,,track,571.8,False,False,3,4.0,8.0,1.0,1.0,yes,,yes,
+857133759,w857133759,State Highway 1,trunk,241.65,False,False,1,6.75,11.0,0.8,1.0,yes,,yes,
+857133760,w857133760,State Highway 1,trunk,14.05,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+882995129,w882995129,State Highway 1,trunk,165.73,False,False,0,10.5,25.5,1.0,1.0,yes,,yes,
+882995130,w882995130,State Highway 1,trunk,256.98,False,False,3,7.0,15.5,0.4,1.0,yes,,yes,
+882995131,w882995131,Kincaid Road,trunk,154.38,False,False,1,2.5,14.5,1.0,1.0,yes,,yes,
+882995132,w882995132,State Highway 1,trunk,136.37,False,False,1,6.75,16.0,0.67,1.0,yes,,yes,
+888005165,w888005165,State Highway 1,trunk,1725.78,False,False,14,5.25,4.5,0.74,0.97,yes,,yes,
+888005166,w888005166,State Highway 1,trunk,9.15,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+888563008,w888563008,Inland Kaikōura Road,secondary,2208.89,False,False,0,8.5,12.0,0.98,1.0,yes,,yes,
+888563009,w888563009,Esplanade,tertiary,56.68,False,False,0,22.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1020429765,w1020429765,Churchill Street,trunk,30.1,False,False,0,10.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1020429767,w1020429767,Churchill Street,trunk,17.24,False,False,0,7.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1037267283,w1037267283,State Highway 1,trunk,356.28,False,False,2,5.5,10.0,0.86,1.0,yes,,yes,
+1037267284,w1037267284,State Highway 1,trunk,26.25,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+1037267289,w1037267289,State Highway 1,trunk,245.47,False,False,1,5.25,10.5,0.8,1.0,yes,,yes,
+1037267290,w1037267290,State Highway 1,trunk,29.01,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+1103690625,w1103690625,West End,tertiary,27.77,False,False,0,9.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1103690626,w1103690626,West End,tertiary,10.95,False,False,0,10.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1103690627,w1103690627,Whaleway Station Road,unclassified,245.59,False,False,0,15.5,22.0,1.0,1.0,yes,,yes,
+1103720840,w1103720840,Churchill Street,trunk,207.68,False,False,0,7.75,7.5,1.0,1.0,yes,,yes,
+1103721154,w1103721154,State Highway 1,trunk,408.01,False,False,1,7.75,8.0,1.0,1.0,yes,,yes,
+1232646786,w1232646786,State Highway 1,trunk,72.92,False,False,0,10.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1232646787,w1232646787,State Highway 1,trunk,27.41,False,False,0,10.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1232646788,w1232646788,State Highway 1,trunk,39.58,False,False,0,11.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1232646789,w1232646789,Inland Kaikōura Road,secondary,52.24,False,False,0,12.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1232646790,w1232646790,Inland Kaikōura Road,secondary,40.84,False,False,0,13.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1232661240,w1232661240,Inland Kaikōura Road,secondary,242.67,False,False,1,6.0,11.5,1.0,1.0,yes,,yes,
+1232661241,w1232661241,Inland Kaikōura Road,secondary,29.54,False,False,1,2.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1232661242,w1232661242,Inland Kaikōura Road,secondary,32.08,False,False,0,8.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1255809899,w1255809899,State Highway 1,trunk,28.66,False,False,0,5.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1255809900,w1255809900,Churchill Street,trunk,23.8,False,False,0,8.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1255809902,w1255809902,Churchill Street,trunk,419.62,False,False,0,9.75,17.0,1.0,1.0,yes,,yes,
+1255809903,w1255809903,Churchill Street,trunk,15.18,False,False,0,,,0.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1255809904,w1255809904,Churchill Street,trunk,14.66,False,False,0,20.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1255809906,w1255809906,Churchill Street,trunk,64.09,False,False,0,4.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1255809913,w1255809913,West End,tertiary,31.63,False,False,0,8.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1255809914,w1255809914,Churchill Street,trunk,11.92,False,False,0,6.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1281849850,w1281849850,,track,14.67,False,False,0,5.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1281849851,w1281849851,,track,991.53,False,False,2,4.0,7.0,1.0,1.0,yes,,yes,
+1281849852,w1281849852,McInnes Road,unclassified,707.91,False,False,0,5.25,8.5,1.0,1.0,yes,,yes,
+1281849854,w1281849854,Bay Paddock Road,unclassified,878.21,False,False,0,7.0,10.0,1.0,1.0,yes,,yes,
+1281849856,w1281849856,Lovers Lane,unclassified,1124.41,False,False,0,5.75,8.0,1.0,1.0,yes,,yes,
+1281849857,w1281849857,Old Beach Road,unclassified,19.84,False,False,0,4.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1281849861,w1281849861,West End,tertiary,174.1,False,False,0,12.0,29.0,1.0,1.0,yes,,yes,
+1281853734,w1281853734,Kowhai Ford Road,unclassified,38.3,False,False,0,3.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1281853735,w1281853735,Kowhai Ford Road,unclassified,17.31,False,False,0,8.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1281853736,w1281853736,Postman's Road Extension,track,181.86,False,False,0,7.75,30.0,1.0,1.0,yes,,yes,
+1290538481,w1290538481,Postman's Road,unclassified,114.42,False,False,0,6.25,16.5,1.0,1.0,yes,,yes,
+1290538482,w1290538482,Postman's Road,unclassified,33.91,False,False,0,5.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1290538483,w1290538483,Postman's Road,unclassified,21.86,False,False,0,7.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1290538484,w1290538484,Postman's Road,unclassified,7.72,True,False,0,,,0.0,0.0,unknown,bridge/tunnel: lidar cannot see the deck,unknown,bridge/tunnel: lidar cannot see the deck
+1290770520,w1290770520,Old Beach Road,unclassified,27.43,False,False,0,9.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1304629860,w1304629860,State Highway 1,trunk,315.22,False,False,1,9.5,16.0,0.83,1.0,yes,,yes,
+1304629861,w1304629861,State Highway 1,trunk,178.45,False,False,2,4.0,16.0,0.5,1.0,yes,,yes,
+1304629863,w1304629863,State Highway 1,trunk,286.04,False,False,0,4.75,15.0,1.0,1.0,yes,,yes,
+1304629864,w1304629864,State Highway 1,trunk,92.36,False,False,2,1.25,12.0,1.0,1.0,yes,,yes,
+1304629865,w1304629865,State Highway 1,trunk,896.66,False,False,4,6.0,7.0,0.89,1.0,yes,,yes,
+1304629866,w1304629866,State Highway 1,trunk,457.29,False,False,5,6.0,11.0,0.67,1.0,yes,,yes,
+1304629867,w1304629867,State Highway 1,trunk,531.47,False,False,3,3.25,11.5,0.91,1.0,yes,,yes,
+1304629868,w1304629868,State Highway 1,trunk,184.28,False,False,2,6.5,11.5,0.54,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1304754358,w1304754358,State Highway 1,trunk,56.99,False,False,0,12.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1304754359,w1304754359,State Highway 1,trunk,45.73,False,False,1,,,0.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1304754360,w1304754360,State Highway 1,trunk,239.72,False,False,5,1.5,3.0,0.22,0.55,unknown,too little of the road could be measured,no,sustained pinch narrower than vehicle + clearance
+1304754361,w1304754361,State Highway 1,trunk,222.19,False,False,1,6.75,14.0,1.0,1.0,yes,,yes,
+1304755484,w1304755484,State Highway 1,trunk,887.82,False,False,1,8.5,12.0,0.94,1.0,yes,,yes,
+1304755485,w1304755485,State Highway 1,trunk,102.18,False,False,0,5.0,15.5,1.0,1.0,yes,,yes,
+1304755739,w1304755739,State Highway 1,trunk,65.93,False,False,1,2.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1304755740,w1304755740,State Highway 1,trunk,245.27,False,False,2,2.75,17.0,0.8,1.0,yes,,yes,
+1304756017,w1304756017,State Highway 1,trunk,150.96,False,False,3,2.0,16.5,0.33,1.0,yes,,yes,
+1304756018,w1304756018,State Highway 1,trunk,150.68,False,False,0,6.5,15.5,1.0,1.0,yes,,yes,
+1347905513,w1347905513,Ludstone Road,unclassified,299.74,False,False,1,6.25,15.5,1.0,1.0,yes,,yes,
+1387658050,w1387658050,Esplanade,tertiary,14.85,False,False,0,15.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1387658056,w1387658056,Takahanga Terrace,tertiary,38.95,False,False,0,5.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1387658057,w1387658057,Killarney Street,tertiary,17.64,False,False,1,1.5,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured
+1391398087,w1391398087,,service,93.8,False,False,1,2.75,8.0,1.0,1.0,yes,,yes,
+1462761403,w1462761403,Torquay Street,tertiary,45.54,False,False,0,8.0,,1.0,1.0,unknown,too little of the road could be measured,unknown,too little of the road could be measured

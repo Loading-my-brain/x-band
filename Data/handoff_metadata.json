@@ -1,0 +1,149 @@
+{
+  "created": "2026-10-18",
+  "authors": "X-Band road width (Hinami & Evan)",
+  "join_key": "osm_id (integer OSM way id) = osmnx edge attribute 'osmid'",
+  "crs": "EPSG:2193",
+  "aoi_wgs84": [
+    173.5,
+    -42.5,
+    174.0,
+    -42.0
+  ],
+  "roads": {
+    "repository": "https://github.com/Loading-my-brain/x-band",
+    "commit": "8d739079424b3b6c7077f470346a8840f20a0e1c",
+    "sha256": "127841d08d83cfc7a3ec82cf34f850d92d6d66550e650cea4304a2a1aff26b0e",
+    "filter": "drivable OSM highway classes (railway, cycleways, steps removed)",
+    "attribution": "OpenStreetMap contributors"
+  },
+  "elevation": {
+    "1": {
+      "label": "Kaikoura 2016-17 lidar (post-quake)",
+      "collection": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/canterbury/kaikoura_2016-2017/dem_1m/2193/collection.json"
+    },
+    "2": {
+      "label": "LINZ national 1 m lidar (mostly 2018+)",
+      "collection": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dem_1m/2193/collection.json"
+    }
+  },
+  "width_reference": {
+    "name": "NZTA National Road Centreline - RCA data",
+    "licence": "CC BY 4.0",
+    "url": "https://opendata-nzta.opendata.arcgis.com/datasets/NZTA::national-road-centreline-road-controlling-authority-data"
+  },
+  "carriageway_rule": {
+    "slope_max": 0.06,
+    "dev_max": 0.1
+  },
+  "drivable_rule": {
+    "slope_max": 0.15,
+    "dev_max": 0.3
+  },
+  "first_version_rule": {
+    "slope_max": 0.15,
+    "dev_max": null
+  },
+  "cross_sections": {
+    "spacing_m": 50,
+    "half_length_m": 20.0,
+    "sample_step_m": 0.5
+  },
+  "vehicles": {
+    "pinzgauer": {
+      "label": "Pinzgauer (NZLOV)",
+      "width_m": 1.8,
+      "clearance_m": 1.0,
+      "needs_m": 2.8
+    },
+    "mhov": {
+      "label": "MHOV (Rheinmetall MAN HX60)",
+      "width_m": 2.6,
+      "clearance_m": 1.0,
+      "needs_m": 3.6
+    }
+  },
+  "accuracy_width_vs_nzta": [
+    {
+      "rule": "First version (slope only)",
+      "records": "validation",
+      "n": 36,
+      "bias_m": 5.458,
+      "mae_m": 5.458,
+      "rmse_m": 5.809,
+      "r": 0.743
+    },
+    {
+      "rule": "Calibrated",
+      "records": "validation",
+      "n": 41,
+      "bias_m": 0.398,
+      "mae_m": 1.715,
+      "rmse_m": 2.107,
+      "r": 0.65
+    },
+    {
+      "rule": "Calibrated",
+      "records": "all matched",
+      "n": 68,
+      "bias_m": 0.246,
+      "mae_m": 1.651,
+      "rmse_m": 2.035,
+      "r": 0.616
+    }
+  ],
+  "accuracy_position": [
+    {
+      "check": "NZTA points to team line",
+      "n": 172,
+      "median_m": 1.252,
+      "rmse_m": 5.077,
+      "p90_m": 5.289,
+      "within_5m": 0.878,
+      "within_10m": 0.948
+    },
+    {
+      "check": "Lidar road centre to team line",
+      "n": 2131,
+      "median_m": 1.0,
+      "rmse_m": 1.75,
+      "p90_m": 2.75,
+      "within_5m": 0.985,
+      "within_10m": 1.0
+    }
+  ],
+  "sensitivity_pass_rule": [
+    {
+      "dev_max_m": 0.1,
+      "MHOV no (km)": 14.06,
+      "MHOV unknown (km)": 3.8,
+      "Inland Road answer": "unknown"
+    },
+    {
+      "dev_max_m": 0.2,
+      "MHOV no (km)": 9.52,
+      "MHOV unknown (km)": 3.8,
+      "Inland Road answer": "unknown"
+    },
+    {
+      "dev_max_m": 0.3,
+      "MHOV no (km)": 6.8,
+      "MHOV unknown (km)": 3.8,
+      "Inland Road answer": "unknown"
+    },
+    {
+      "dev_max_m": 0.5,
+      "MHOV no (km)": 6.8,
+      "MHOV unknown (km)": 3.8,
+      "Inland Road answer": "unknown"
+    }
+  ],
+  "limitations": [
+    "'yes' = wide enough in the Dec 2016 - Jan 2017 lidar, not confirmed safe (loose debris above the road, surface damage and bridge condition are not assessed).",
+    "Bridges and tunnels are always 'unknown'.",
+    "Carriageway accuracy was validated on ~40 NZTA stretches; widths are compressed toward the average.",
+    "NZTA widths describe today's rebuilt roads.",
+    "The drivable-width height step and the clearance margin are assumptions (see sensitivity table).",
+    "Vehicle widths: Pinzgauer 1.8 m (NightHawk; Pinzgauer brochure), MHOV 2.6 m (Deagel; Wikipedia gives 2.5 m for the HX77). The clearance margin is an assumption.",
+    "Roads outside the team road file or the AOI have no values: treat as unknown."
+  ]
+}
