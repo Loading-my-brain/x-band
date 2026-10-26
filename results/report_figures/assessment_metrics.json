@@ -1,0 +1,41 @@
+{
+  "landslide_reference_agreement": {
+    "U-Net": {
+      "precision": 0.31040978,
+      "recall": 0.51591927,
+      "f1": 0.38760924,
+      "iou": 0.24039411
+    },
+    "Random Forest": {
+      "precision": 0.35929231,
+      "recall": 0.56244882,
+      "f1": 0.43848219,
+      "iou": 0.28080512
+    }
+  },
+  "accuracy_width_vs_nzta": [
+    {
+      "rule": "First version (slope only)",
+      "records": "validation",
+      "n": 36,
+      "bias_m": 5.458,
+      "mae_m": 5.458,
+      "rmse_m": 5.809,
+      "r": 0.743
+    },
+    {
+      "rule": "Calibrated",
+      "records": "validation",
+      "n": 41,
+      "bias_m": 0.398,
+      "mae_m": 1.715,
+      "rmse_m": 2.107,
+      "r": 0.65
+    }
+  ],
+  "scope": {
+    "landslide": "Frozen-model agreement on 1,393,305 shared valid pixels in road-selected tiles; possible overlap with model training/validation. Not an independent test or road-blockage accuracy.",
+    "width": "Carriageway width against NZTA on the validation subset. Available valid samples differ: n=36 slope-only and n=41 calibrated. This does not validate the lenient drivable-width rule.",
+    "rounding": "Metrics retain the values used to plot the archived figures. The width metadata are rounded to three decimals; the notebook display used two decimals."
+  }
+}

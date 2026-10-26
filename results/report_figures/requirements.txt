@@ -1,0 +1,8 @@
+# Tested plotting environment. Install once; plotting then works offline.
+matplotlib==3.11.2
+numpy==2.5.4
+geopandas==1.2.0
+pyproj==3.8.0
+shapely==2.2.0
+pyogrio==0.13.0
+pillow==13.0.0

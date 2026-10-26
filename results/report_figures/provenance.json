@@ -1,0 +1,24 @@
+{
+  "package_date": "2026-10-26",
+  "team_repository": "https://github.com/Loading-my-brain/x-band",
+  "training_notebook": "https://colab.research.google.com/drive/1qv50BWv2yHz1zybLNTeGr3xkyx9yDmjJ",
+  "landslide_source": "Saved Colab road-comparison outputs, 15 October 2026: pixel_reference_metrics.json; no model was retrained for these figures.",
+  "width_source": "handoff_metadata.json, accuracy_width_vs_nzta; first two records only. Same values are summarized in the integrated notebook width-validation cell In[11].",
+  "integration_source_file": "Kaikoura_Widths_Landslide_Routing_complete_version.html",
+  "integration_source_scope": "Saved export reviewed 26 October 2026. Model inference and routing were not re-executed to make these figures.",
+  "route_extraction": {
+    "cell_index_one_based": 74,
+    "execution_counter": 46,
+    "baseline": "Folium GeoJSON layer 4",
+    "pinzgauer": "Folium GeoJSON layer 5",
+    "mhov": "Folium GeoJSON layer 6",
+    "crs": "EPSG:4326 in bundled GeoJSON; plotted as EPSG:2193"
+  },
+  "route_licence": "Road geometry derived from OpenStreetMap; © OpenStreetMap contributors, https://www.openstreetmap.org/copyright",
+  "distinctions": [
+    "Final integration applies the frozen Random Forest; U-Net is shown as a separate model comparison.",
+    "Earlier Routing_team_brief_v3.pdf stand-in-closure experiments and its 3.7x calibration, helicopter comparison and hardest-case times are not plotted here.",
+    "Figure 3 maps graph-edge status, not the exact footprint of width measurements. A clipped OSM-way assessment is attached to matching graph edges.",
+    "The figure scripts are offline plotting only, not executable versions of the model-training/integrated-routing pipeline."
+  ]
+}
