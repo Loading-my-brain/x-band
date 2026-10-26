@@ -1,0 +1,177 @@
+{
+  "record_type": "Summary of saved outputs; no new model or routing execution",
+  "prepared_date": "2026-10-26",
+  "source_files": [
+    "Kaikoura_Widths_Landslide_Routing_complete_version.ipynb",
+    "Kaikoura_Widths_Landslide_Routing_complete_version.html",
+    "pixel_reference_metrics.json",
+    "road_reference_summary.json"
+  ],
+  "source_notebook_sha256": "b6b17ca822ceca86ad681acedd354fba609206f785ab6ea72fdfb0c6e808dd56",
+  "landslide": {
+    "model": "Previously trained Random Forest; 150 trees; frozen threshold 0.28",
+    "scope": "GNS source/debris reference agreement on road-selected areas; development overlap; not independent test or closure accuracy",
+    "source_cells_1_based": [
+      51,
+      54,
+      57
+    ],
+    "tiles": 111,
+    "shared_valid_pixels": 1393305,
+    "reference_positive_fraction": 0.014900542235906712,
+    "pixel_metrics": {
+      "precision": 0.3592923076923077,
+      "recall": 0.562448822311064,
+      "f1": 0.43848219147218415,
+      "iou": 0.28080511735282804,
+      "average_precision": 0.36505049047741384,
+      "accuracy": 0.9785352094480391
+    },
+    "road_components": 201,
+    "osm_ways": 192,
+    "observed_road_length_m": 115389.47566454674,
+    "unknown_road_length_m": 4790.170478289757,
+    "rf_overlap_components": 43,
+    "rf_overlap_length_m": 5337.392474588959,
+    "gns_overlap_components": 32,
+    "gns_overlap_length_m": 2331.2242241677877,
+    "routing_status_by_osm_way": {
+      "yes": 145,
+      "unknown": 47,
+      "no": 0
+    },
+    "routing_status_caveat": "yes means no assessed RF overlap under the encoded rule; it is not confirmed safe or open"
+  },
+  "width": {
+    "source_cells_1_based": [
+      26,
+      28,
+      32
+    ],
+    "scope": "Validation of strict carriageway widths against NZTA records; not validation of lenient drivable width or actual vehicle passage",
+    "cross_sections": 2428,
+    "spacing_m": 50,
+    "calibrated_rule": {
+      "slope_max": 0.06,
+      "height_deviation_max_m": 0.1
+    },
+    "calibrated_validation": {
+      "usable_records": 41,
+      "mae_m": 1.715,
+      "rmse_m": 2.107,
+      "bias_m": 0.398,
+      "pearson_r": 0.65
+    },
+    "slope_only_validation": {
+      "usable_records": 36,
+      "mae_m": 5.458,
+      "rmse_m": 5.809,
+      "bias_m": 5.458,
+      "pearson_r": 0.743
+    },
+    "comparison_caveat": "Usable validation records differ between rules; not a strictly paired error comparison",
+    "drivable_rule": {
+      "slope_max": 0.15,
+      "height_deviation_max_m": 0.3,
+      "validated": false
+    },
+    "vehicle_required_width_m": {
+      "pinzgauer": 2.8,
+      "mhov": 3.6
+    },
+    "assumed_total_clearance_m": 1.0,
+    "drivable_screen_length_km": {
+      "pinzgauer": {
+        "yes": 111.06,
+        "no": 0.849,
+        "unknown": 8.27
+      },
+      "mhov": {
+        "yes": 108.171,
+        "no": 6.849,
+        "unknown": 5.159
+      }
+    },
+    "status_caveat": "These are width-screening labels, not verified open-road lengths"
+  },
+  "road_routing": {
+    "scope": "Saved computational scenarios for the defined costs, not validated vehicle safety or travel time",
+    "landslide_input_enabled": true,
+    "missing_assessment_policy": "unverified; no additional penalty",
+    "route_cost_units": "minutes of driving estimate plus hand-set penalties",
+    "scenarios": [
+      {
+        "name": "Kaikoura to Hapuku",
+        "source_cell_1_based": 67,
+        "vehicles": [
+          "pinzgauer",
+          "mhov"
+        ],
+        "distance_km": 16.45,
+        "driving_minutes": 11.8,
+        "penalty_minutes": 4.0,
+        "total_cost_minutes": 15.8,
+        "unverified_km": 11.03,
+        "unverified_percent_rounded": 67,
+        "status": "CLEAR_WITH_UNKNOWN",
+        "unknown_ways": 2,
+        "no_ways": 0,
+        "baseline_ignoring_checks": {
+          "distance_km": 9.07,
+          "driving_minutes": 7.6
+        }
+      },
+      {
+        "name": "Culverden to Kaikoura",
+        "source_cells_1_based": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "vehicles": [
+          "pinzgauer",
+          "mhov"
+        ],
+        "distance_km": 106.28,
+        "driving_minutes": 69.2,
+        "penalty_minutes": 18.0,
+        "total_cost_minutes": 87.2,
+        "unverified_km": 89.35,
+        "unverified_percent_rounded": 84,
+        "status": "CLEAR_WITH_UNKNOWN",
+        "unknown_ways": 6,
+        "no_ways": 0,
+        "baseline_ignoring_checks": {
+          "distance_km": 103.88,
+          "driving_minutes": 66.7
+        }
+      }
+    ],
+    "search_check": "Saved A* costs checked against Dijkstra for the defined objective",
+    "saved_landslide_on_off_ablation": false
+  },
+  "off_road_candidates": {
+    "source_cell_1_based": 82,
+    "grid_resolution_m": 20,
+    "scope": "Grid connections may include roads; no independent drivable-width, soil-strength or vehicle-traversability validation",
+    "local_road_only_reference_cost_minutes": 15.8,
+    "vehicles": {
+      "pinzgauer": {
+        "total_path_km": 11.2,
+        "total_cost_minutes": 11.1,
+        "chosen_grid_legs": 2,
+        "grid_leg_distance_km": 1.4
+      },
+      "mhov": {
+        "total_path_km": 11.3,
+        "total_cost_minutes": 11.3,
+        "chosen_grid_legs": 3,
+        "grid_leg_distance_km": 1.46,
+        "entirely_road_cell_legs": 2
+      }
+    },
+    "all_chosen_links_flag_no_width_data": true,
+    "earlier_simulated_routing_brief_results_included": false
+  }
+}
